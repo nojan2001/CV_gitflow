@@ -39,6 +39,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
+          permissions: write-all
           tag_name: ${{ env.VERSION }}
           release_name: Release ${{ env.VERSION }}
           draft: false
