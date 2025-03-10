@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 env:
-  RESUME_TARGET: out/Anakin_Skywalker_resume.pdf
+  RESUME_TARGET: out/Nojan_Rezvani_CV.pdf
 
 jobs:
   publish:
