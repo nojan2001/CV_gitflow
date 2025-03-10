@@ -3,7 +3,7 @@ basics:
   location:
     city: Mos Eisley
     countryCode: Tatooine
-  name: Anakin Skywalker
+  name: Nojan Skywalker
   phone: 123-456-7890
   profiles:
   - network: Github
