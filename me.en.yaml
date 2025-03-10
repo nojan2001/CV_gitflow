@@ -1,74 +1,152 @@
-basics:
-  email: anakin@skywalker.com
-  location:
-    city: Mos Eisley
-    countryCode: Tatooine
-  name: Nojan Skywalker
-  phone: 123-456-7890
-  profiles:
-  - network: Github
-    url: https://github.com/alexlren
-    username: alexlren
-  - network: Linkedin
-    url: https://www.linkedin.com/anakin
-    username: anakin
-  url: https://shaoner.com
-education:
-- area: Jedi / General
-  institution: Jedi Academy
-  startDate: '2011-01-01'
-meta:
-  breaks_before:
-    education: true
-projects:
-- description: a multiplatform gameboy engine
-  keywords:
-  - Rust
-  - React.js
-  name: padme
-  url: https://padme.cc
-- description: A special lightsaber
-  keywords:
-  - C++
-  - Qt
-  name: lightsaber
-skills:
-- keywords:
-  - Rust
-  - Python
-  name: Languages
-- keywords:
-  - numpy
-  - Qt
-  name: Frameworks/libraries
-- keywords:
-  - AWS
-  - docker
-  - kubernetes
-  name: Devops
-- keywords:
-  - emacs
-  - Makefile
-  name: Tools
-- keywords:
-  - Linux
-  - FreeBSD
-  name: OS
-work:
-- highlights:
-  - Killed a few rebels here and there
-  - Tracked Jedi all around the galaxy
-  - Practiced the force with my master Darth Sidious
-  - Killed some younglings
-  name: Empire
-  position: Darth Vader
-  startDate: '2016-08-01'
-- endDate: '2016-01-01'
-  highlights:
-  - Learn the force with my master Obiwan Kenobi
-  - Helped the clones during the Clone wars
-  - Freed the princess of Naboo
-  - Killed the Count Dooku
-  name: Jedi Academy
-  position: Jedi / General
-  startDate: '2011-01-01'
+cv:
+  name: Nojan Rezvani
+  email: Nojan2001@gmail.com
+  phone: tel:+45 50169836
+  social_networks:
+    - network: LinkedIn
+      username: nojan-rezvani-456448222
+  sections:
+    Lidt om mig:
+      - Mit navn er Nojan Rezvani og jeg er 23 år. Jeg studere Civilingeniør kandidaten Human-Centered Artificial Intelligence inde på DTU,
+        hvor jeg nu er på mit 4. semester. 
+
+        Som det fremgår af mit CV, har jeg arbejdet med en bred vifte af emner - fra database-systemer og software engineering til kunstig intelligens og operativ-systemer.
+        Men I ved lige så godt som jeg, at den viden man opnår gennem det akademiske system hurtigt kan blive forældet ift. industrien og dens teknologiske udvikling. Derfor vil jeg særligt fremhæve, 
+        at min største styrke ikke ligger i de specifikke teknologier jeg har kendskab til, men derimod i min passion for at tilegne mig ny viden, samt min analytiske tilgang til problemløsning.
+    Uddannelse:
+      - institution: Danmarks Tekniske Universitet
+        area: Human-Centered Artificial Intelligence
+        degree: Msc
+        start_date: 2023-08
+        end_date: 2025-12
+        highlights:
+          - '**Udvalgte kursus emner:** Algoritmer for store datamængder, Multiagent-systemer, Deep learning, Kunstig intelligens, 
+            UX design.'
+          - '**Akademisk Grad:** Civilingeniør, cand. polyt.'
+
+      - institution: Danmarks Tekniske Universitet
+        area: Softwareteknologi
+        degree:  BA
+        start_date: 2020-08
+        end_date: 2023-06
+        highlights:
+          - '**General fokus:** Matematik (Linear algebra, differential systemer, osv.), Statestik,
+            Diskret mat, Algoritmer, Software Engineering, Machine learning og Kunstig intelligens.'
+          - '**Polyteknisk baggrund:** Kurser i Matematik, Fysik og Kemi'
+          - '**Akademisk Grad:** Bachelor i teknisk videnskab'
+    Erfaring:
+      - company: Danmarks Tekniske Universitet
+        position: Teaching Assistant, Hjælpelærer
+        start_date: 2025-02
+        end_date: 2025-04
+        highlights:
+          - For kurset 02170 **"Database Systems"**.
+          - Kurset handler primært om SQL og database teori.
+          - Assisterede studerende med forståelse for materialet og opgaveløsning,
+            primært ved at supervise øvelsestimer hver uge efter kursus forelæsning.
+            Derudover vejledte jeg grupper gennem deres projektforløb, og rettede deres efterfølgende rapporter
+
+      - company: Danmarks Tekniske Universitet
+        position: Teaching Assistant, Hjælpelærer
+        start_date: 2024-08
+        end_date: 2024-12
+        highlights:
+          - For kurset 02159 **"Operating Systems"**.
+          - Kurset handler om kunstig intelligens, informeret heuristisk søgning, adversarial search og Knowledge bases.
+          - Assisterede studerende med deres semester-lange projekt, hvor de skulle designe og implementere en løsning ved brug af operativ teknikker.
+            Der blev brugt C, virtuelle maskiner, og Linux systemer. Teknikkerne brugt var blandt andet multithreading og processing, prioritetsplanlægning,
+            caching, race conditions, kernels osv.
+      - company: Danmarks Tekniske Universitet
+        position: Teaching Assistant, Hjælpelærer
+        start_date: 2024-02
+        end_date: 2024-04
+        highlights:
+          - For kurset 02180 **"Introduction to Artificial Intelligence"**.
+          - Kurset handler om kunstig intelligens, informeret heuristisk søgning, adversarial search og Knowledge bases.
+          - Assisterede studerende med forståelse for materialet og opgaveløsning,
+            primært ved at supervise Øvelsestimer hver uge efter kursus forelæsning.
+            Derudover rettede jeg projekt rapporter.
+      - company: Danmarks Tekniske Universitet
+        position: Teaching Assistant, Hjælpelærer
+        start_date: 2024-02
+        end_date: 2024-04
+        highlights:
+          - For kurset 02170 **"Database Systems"**.
+          - Kurset handler primært om SQL og database teori.
+          - Assisterede studerende med forståelse for materialet og opgaveløsning,
+            primært ved at supervise øvelsestimer hver uge efter kursus forelæsning.
+            Derudover vejledte jeg grupper gennem deres projektforløb, og rettede deres efterfølgende rapporter
+
+      - company: Danmarks Tekniske Universitet
+        position: Teaching Assistant, Hjælpelærer
+        start_date: 2023-09
+        end_date: 2023-12
+        highlights:
+          - For kurset 02226 **"Networked Embedded Systems"**.
+          - Kurset handler blandt andet om netværksforbundede indlejret systemer, IoT, kommunikation og indsamling af data samt design.
+          - Assisterede studerende med deres semesterlange praktiske projekt. Projekterne omhandlede indsamling af data gennem brug af IoT. 
+            Der blev brugt indlejrede systemer såsom cc2650 launchpads og nRF52, og IoT operativ systemer såsom Contiki-NG og RIOT.
+      - company: Danmarks Tekniske Universitet
+        position: Teaching Assistant, Hjælpelærer
+        start_date: 2023-02
+        end_date: 2023-04
+        highlights:
+          - For kurset 02170 **"Database Systems"**.
+          - Kurset handler primært om SQL og database teori.
+          - Assisterede studerende med forståelse for materialet og opgaveløsning,
+            primært ved at supervise øvelsestimer hver uge efter kursus forelæsning.
+            Derudover vejledte jeg nogle grupper gennem deres projektforløb, hvor jeg også rettede deres efterfølgende rapporter
+    BACHELOR Projekt:
+      - name: TSCH Network for Mobile Robots
+        date: '2023-06'
+        highlights:
+          - '**Forfattere:** Harald Ledertoug Lissau og Nojan Rezvani'
+          - '**Udgiver:** DTU Department of Applied Mathematics and Computer Science'
+          - '**Uddrag af abstract:** "This thesis examines the problem of mobile nodes leaving communication range with a parent node in
+            a TSCH network, which leads to lost data"'
+          - '**Resultater:** Foreslog og implementerede forbedringer til den nuværende funktionalitet. Vores foreslag resulterede i en målbar forbedring, hvor vi deraf beviste at den nuværende implemtation kan forbedres.'
+          - '**Karakter:** Bestod med et 12 tal'
+          - '[Link til publikation](https://findit.dtu.dk/en/catalog/64adef749af4359152e3a3bd)'
+
+    Teknologier:
+      - label: Languages
+        details: Java, Python, C, C#, F#, R, SQL, Prolog, Machine code, Parallel & Functionel programmering.
+      - label: Software
+        details: Visual Studio, VS Code, Git, Github, R studio, Android studio, Unity, osv.
+
+design:
+  theme: classic
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  show_timespan_in:
+    - Experience
