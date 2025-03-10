@@ -21,8 +21,10 @@ jobs:
       - name: Install requirements
         run: pip install resumy
 
-      - name: downgrade pypdf to fix weasyprint error
-        run: pip install pydyf==0.10.0
+      #- name: downgrade pypdf to fix weasyprint error
+        #run: pip install pydyf==0.10.0
+      - name: upgrade weasyprint
+        run: pip install weasyprint==61.1
 
       - name: Build resume
         run: make
